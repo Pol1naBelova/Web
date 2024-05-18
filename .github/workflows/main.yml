@@ -3,7 +3,7 @@ name: Add Text to PR Description
 on:
   pull_request:
     branches:
-      - 'main'
+      - '*'
     types: [opened]
 
 jobs:
